@@ -1,5 +1,9 @@
-<form action="https://appzzz.000webhostapp.com/app/public/" onsubmit="postSubmit.bind(this)(event, displayAvatar)">
+<!-- <form action="https://appzzz.000webhostapp.com/app/public/" onsubmit="postSubmit.bind(this)(event, displayAvatar)"> -->
 
+<!-- BLOCKED BY CORS -->
+
+
+<form action="api.php">
     <select name="fields" id="" multiple>
         <option value="firstname">Firstname</option>
         <option value="lastname">Lastname</option>
@@ -10,9 +14,7 @@
     <input type="submit" value='request'>
 </form>
 
-
-<div id=''>
-
+<div id="app">
 </div>
 
 <script src='request.js'></script>

@@ -6,10 +6,10 @@ function displayAvatar(form, response) {
     for (entry in response) {
         console.log(response[entry]);
         if (entry !== 'image') {
-            output += '<p><b>' + entry + '</b> ' + response[entry] + "</p>"
+            output = '<p><b>' + entry + '</b> ' + response[entry] + "</p>"
         }
         else {
-            output += '<img src="' + response[entry] + '" height="100px" >';
+            output = '<img src="' + response[entry] + '" height="100px" >';
         }
     }
 
